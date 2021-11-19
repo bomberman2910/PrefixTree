@@ -10,10 +10,19 @@ TODO write description
 
 ### Dependencies
 
-TODO insert dependencies
+* .NET 5.0
+* any platform where .NET 5 is a thing
+
+### Usage
+
+* add LibTrie to your project
+* create a new ```Trie``` instance with ```var trie = new Trie();```
+* add new words to it with ```trie.AddWord("example");```
 
 ## Authors
 
+* bomberman2910
+
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
