@@ -1,5 +1,7 @@
 # Prefix tree in C\#
 
+[![.NET](https://github.com/bomberman2910/PrefixTree/actions/workflows/dotnet.yml/badge.svg)](https://github.com/bomberman2910/PrefixTree/actions/workflows/dotnet.yml)
+
 Basic implementation of a prefix tree (also calles Trie) in C# for use in other projects.
 
 ## Description
