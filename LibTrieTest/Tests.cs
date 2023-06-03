@@ -1,24 +1,23 @@
 using NUnit.Framework;
 
-namespace LibTrieTest
+namespace LibTrieTest;
+
+public class Tests
 {
-    public class Tests
+    private LibTrie.Trie trie = new LibTrie.Trie();
+
+    [SetUp]
+    public void Setup()
     {
-        private LibTrie.Trie trie = new LibTrie.Trie();
+        trie.AddWord("test");
+        trie.AddWord("trying");
+        trie.AddWord("enter");
+        trie.AddWord("testing");
+    }
 
-        [SetUp]
-        public void Setup()
-        {
-            trie.AddWord("test");
-            trie.AddWord("trying");
-            trie.AddWord("enter");
-            trie.AddWord("testing");
-        }
-
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
+    [Test]
+    public void Test1()
+    {
+        Assert.Pass();
     }
 }
