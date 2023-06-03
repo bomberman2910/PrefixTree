@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace LibTrie;
 
-public class Node
+internal class Node
 {
     private Dictionary<char, Node> children = new();
 
@@ -25,6 +25,28 @@ public class Node
             return;
         }
         this[splitWord[0]].AddWord(splitWord[1..]);
+    }
+
+    public bool HasChild(char character)
+    {
+        return children.ContainsKey(character);
+    }
+
+    public Node GetChild(char character)
+    {
+        if(!children.ContainsKey(character))
+            return null;
+        return children[character];
+    }
+
+    public List<string> GetAllWords(string startOfWord)
+    {
+        var result = new List<string>();
+        if(IsWord)
+            result.Add(startOfWord);
+        foreach (var (character, node) in children)
+            result.AddRange(node.GetAllWords($"{startOfWord}{character}"));
+        return result;
     }
 }
 

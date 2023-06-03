@@ -16,8 +16,25 @@ public class Tests
     }
 
     [Test]
-    public void Test1()
+    public void TestGetWordsFor1()
     {
-        Assert.Pass();
+        var words = trie.GetWordsFor("tes");
+        Assert.AreEqual(2, words.Count);
+        Assert.Contains("test", words);
+        Assert.Contains("testing", words);
+    }
+
+    [Test]
+    public void TestGetWordsFor2()
+    {
+        var words = trie.GetWordsFor("li");
+        Assert.Zero(words.Count);
+    }
+
+    [Test]
+    public void TestGetWordsFor3()
+    {
+        var words = trie.GetWordsFor("entering");
+        Assert.Zero(words.Count);
     }
 }
