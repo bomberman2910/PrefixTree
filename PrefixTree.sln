@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTrie", "LibTrie\LibTrie.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTrieTest", "LibTrieTest\LibTrieTest.csproj", "{831C0224-F1A9-45AE-8ECD-27F31540DB5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibTrieDemo", "LibTrieDemo\LibTrieDemo.csproj", "{3FC15AA4-1465-4C8F-8724-080408C7693E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{831C0224-F1A9-45AE-8ECD-27F31540DB5C}.Release|x64.Build.0 = Release|Any CPU
 		{831C0224-F1A9-45AE-8ECD-27F31540DB5C}.Release|x86.ActiveCfg = Release|Any CPU
 		{831C0224-F1A9-45AE-8ECD-27F31540DB5C}.Release|x86.Build.0 = Release|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Debug|x64.Build.0 = Debug|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Debug|x86.Build.0 = Debug|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Release|x64.ActiveCfg = Release|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Release|x64.Build.0 = Release|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Release|x86.ActiveCfg = Release|Any CPU
+		{3FC15AA4-1465-4C8F-8724-080408C7693E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
